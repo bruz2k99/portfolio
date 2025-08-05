@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=DynaPuff:wght@400..700&family=Eater&family=Pacifico&family=Space+Grotesk:wght@300..700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- fontawesome -->
+   
+   
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+     <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+  <!-- aos -->
+   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+   <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  </head>
+  <body>
+    <div id="container">
+      <!-- navbar -->
+      <nav>
+        <img src="images/logo.png" alt="Logo" class="logo" />
+        <!-- list -->
+        <ul>
+          <li class="listItems"><a class="links" href="#home">Home</a></li>
+          <li class="listItems"><a class="links" href="#about">About</a></li>
+          <li class="listItems"><a class="links" href="#skills">Skills</a></li>
+          <li class="listItems"><a class="links" href="#contact">Contacts</a></li>
+        </ul>
+      </nav>
+      <section id="home">
+       <div class="homecontents">
+        <h1>Welcome to My Portfolio</h1>
+        <h2 class="animate__animated animate__rubberBand" id="username">I am Jyo,<span> Software Engineer</span></h2>
+        <p id="userdetails">Passionate about building applications & solutions.
+            <br>
+            Detailed CV available on request.</p>
+            <a id="CV" href="#">Download CV</a>
+        </p>
+        </div>
+        <div class="homeimg">
+            <img src="images/img_2.png" alt="Home Image" class="group1" id="girl">
+            <img src="images/logo.png" alt="Home Image" class="group1" id="shit">
+        </div>
+       
+      </section>
+      <section id="about">
+        <div class="sectionHead">
+          <h2 class="mainHead">About Me</h2>
+          <span class="subHead" >Introduction</span>
+        </div>
+        <div class="aboutBody">
+          <div class="aboutImage">
+            <img class="imgabout" src="images/img4.jpg" alt="about image" />
+          </div>
+          <div data-aos="fade-up"
+     data-aos-anchor-placement="top-center" class="aboutContent"> 
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus nisi error dicta, molestias necessitatibus pariatur omnis placeat voluptatum quidem enim, earum blanditiis tempore adipisci qui consequuntur nulla quia deleniti eveniet.</p>
+            <div class="information">
+              <div data-aos="fade-up"
+     data-aos-anchor-placement="top-center" class="infoBox">
+                <i class="fa-solid fa-user"></i>
+                <span>Jyothish M</span> 
+              </div>
+              <div class="infoBox">
+                <i class="fa-solid fa-phone"></i>
+                <span>8921390448</span>
+            </div>  
+                <div class="infoBox">
+                <i class="fa-solid fa-envelope"></i>
+                <span>jyo@example.com</span>
+                </div>
+            </div>
+           
+          </div>
+        </div>
+      </section>
+      <section id="skills">
+        <div class="sectionHead">
+          <h2 class="mainHead">skills</h2>
+          <span class="subHead" >My skills</span>
+        </div>
+       <div data-aos="fade-up"
+     data-aos-anchor-placement="top-center" class="skillContent">
+        <div class="progressBar"> 
+  <div class="bars">
+    <h3 class="barhead">HTML</h3>
+    <span class="barPercent">90%</span>
+    <div class="basebar"></div>
+    <div class="basebar htmlbar"></div>
+  </div>
+  <div class="bars">
+    <h3 class="barhead">css</h3>
+    <span class="barPercent">90%</span>
+    <div class="basebar"></div>
+    <div class="basebar cssbar"></div>
+  </div>
+  <div class="bars">
+    <h3 class="barhead">js</h3>
+    <span class="barPercent">90%</span>
+    <div class="basebar"></div>
+    <div class="basebar jsbar"></div>
+  </div>
+  <div class="bars">
+    <h3 class="barhead">python</h3>
+    <span class="barPercent">90%</span>
+    <div class="basebar"></div>
+    <div class="basebar pythonbar"></div>
+  </div>
+</div>
+          <div class="skillimg">
+            <img class="imgR" src="images/R.png" alt="img_bar">
+          </div>
+          </div>
+      </section>
+      <section id="contact" class="contact">
+        <div class="sectionHead">
+          <h2 class="mainHead">Contact</h2>
+          <span class="subHead" >My Contacts</span>
+        </div>
+        <div class="icon-collection">
+          <!-- linkedin -->
+           <div class="icon">
+            <a href="https://www.linkedin.com/feed/" target="_blank"><i class="fa-brands fa-linkedin brands"></i></a>
+           </div>
+          <!-- x -->
+          <div class="icon">
+            <a href="https://x.com/jyothish_2k99" target="_blank"><i class="fa-brands fa-twitter brands"></i></a>
+          </div>
+          <!-- github -->
+          <div class="icon">
+            <a href="https://github.com/bruz2k99" target="_blank"><i class="fa-brands fa-github brands"></i></a>
+          </div>
+          <!-- whatsapp -->
+          <div class="icon">
+            <a href="https://wa.me/8921390448" target="_blank"><i class="fa-brands fa-whatsapp brands"></i></a>
+          </div>
+          <!-- instagram -->
+          <div class="icon">
+            <a href="https://www.instagram.com/jyothish_2k99/" target="_blank"><i class="fa-brands fa-instagram brands"></i></a>
+          </div>
+          <div class="icon">
+              <a href="https://www.facebook.com/jyothish.murali.7" target="_blank"><i class="fa-brands fa-facebook brands"></i></a>
+            </div>
+        </div>
+      </section>
+      <footer>
+        <p id="copyright"> © 2023 Jyothish M. All rights reserved.</p>
+        <div class="icon upArrow">
+          <a href="#container"><i class="fa-solid fa-angle-up brands"></i></a>
+        </div>
+      </footer>
+    </div>
+  </body>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+  AOS.init();
+</script>
+</html>
